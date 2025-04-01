@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_trang_chu">
+
+    <fragment
+        android:id="@+id/nav_trang_chu"
+        android:name="com.example.learnenglishapp.home.HomeFragment"
+        android:label="Trang chủ"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_tu_vung"
+        android:name="com.example.learnenglishapp.home.VocabularyFragment"
+        android:label="Từ vựng"
+        tools:layout="@layout/fragment_vocabulary" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_ngu_phap"-->
+<!--        android:name="com.yourapp.ui.NguPhapFragment"-->
+<!--        android:label="Ngữ pháp"-->
+<!--        tools:layout="@layout/fragment_ngu_phap" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_hoi_thoai"-->
+<!--        android:name="com.yourapp.ui.HoiThoaiFragment"-->
+<!--        android:label="Hội thoại"-->
+<!--        tools:layout="@layout/fragment_hoi_thoai" />-->
+
+    <fragment
+        android:id="@+id/nav_ca_nhan"
+        android:name="com.example.learnenglishapp.home.ProfileFragment"
+        android:label="Cá nhân"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

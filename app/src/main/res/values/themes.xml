@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.LearnEnglishApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Định nghĩa theme của bạn -->
+    </style>
+</resources>
