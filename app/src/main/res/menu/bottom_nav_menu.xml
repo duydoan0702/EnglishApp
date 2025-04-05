@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/nav_tra_tu"
+        android:id="@+id/nav_ngu_phap"
         android:icon="@drawable/ic_ngu_phap"
         android:title="Ngữ pháp" />
     <item
