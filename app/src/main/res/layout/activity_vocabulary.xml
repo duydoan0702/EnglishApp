@@ -17,9 +17,9 @@
         android:id="@+id/img_lesson"
         android:layout_width="72dp"
         android:layout_height="72dp"
-        android:background="@color/dark_blue"
-        android:elevation="4dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_image_bg"
+        android:padding="8dp"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_tu_vung" />
 

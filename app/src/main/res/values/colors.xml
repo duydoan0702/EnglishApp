@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="dark_blue">#32357a</color>
     <color name="Light_blue">#f2f1f6</color>
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="btn_pressed_color">#DDDDDD</color> <!-- Màu nền khi nhấn -->
+
 </resources>

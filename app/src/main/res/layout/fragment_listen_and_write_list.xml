@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_listen_write"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:padding="24dp"
+    tools:context=".ui.listen.ListenWriteFragment">
+
+    <!-- Nút quay lại -->
+
+    <!-- Hình minh họa -->
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/background_aval2"
+        android:contentDescription="Back"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back1"
+        app:tint="@android:color/holo_blue_dark" />
+
+    <ImageView
+        android:id="@+id/imgIllustration"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/image_desc"
+        app:srcCompat="@drawable/women"
+        app:layout_constraintTop_toBottomOf="@id/btnBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- SeekBar điều khiển tiến trình -->
+
+    <!-- Bộ nút điều khiển: Trước - Phát/Tạm dừng - Sau -->
+    <SeekBar
+        android:id="@+id/seekBarProgress"
+        android:layout_width="276dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="32dp"
+        android:max="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgIllustration" />
+
+    <LinearLayout
+        android:id="@+id/controlButtons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/seekBarProgress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Nút quay lại -->
+        <ImageButton
+            android:id="@+id/btnPrev"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_pressed"
+            android:contentDescription="Previous"
+            app:srcCompat="@drawable/ic_prev" />
+
+        <!-- Nút phát/tạm dừng -->
+        <ImageButton
+            android:id="@+id/btnPlayPause"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginHorizontal="16dp"
+            android:background="@drawable/btn_pressed"
+            android:contentDescription="Play/Pause"
+            app:srcCompat="@drawable/ic_play" />
+
+        <!-- Nút tiếp theo -->
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_pressed"
+            android:contentDescription="Next"
+            app:srcCompat="@drawable/ic_next" />
+
+    </LinearLayout>
+
+    <!-- Nhập đáp án + Spinner tốc độ nghe -->
+    <LinearLayout
+        android:id="@+id/layoutAnswer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/controlButtons"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <EditText
+            android:id="@+id/edtAnswer"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_edittext"
+            android:hint="Nhập câu bạn nghe được..."
+            android:minHeight="56dp"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinnerSpeed"
+            android:layout_width="72dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/rounded_spinner"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:spinnerMode="dropdown"
+            android:entries="@array/speed_options" />
+
+    </LinearLayout>
+
+    <!-- Nút kiểm tra -->
+    <Button
+        android:id="@+id/btnCheckAnswer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Kiểm tra"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/dark_blue"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/layoutAnswer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -22,11 +22,11 @@
 <!--        android:label="Ngữ pháp"-->
 <!--        tools:layout="@layout/fragment_ngu_phap" />-->
 
-<!--    <fragment-->
-<!--        android:id="@+id/nav_hoi_thoai"-->
-<!--        android:name="com.yourapp.ui.HoiThoaiFragment"-->
-<!--        android:label="Hội thoại"-->
-<!--        tools:layout="@layout/fragment_hoi_thoai" />-->
+    <fragment
+        android:id="@+id/nav_hoi_thoai"
+        android:name="com.example.learnenglishapp.home.ConversationFragment"
+        android:label="Hội thoại"
+        tools:layout="@layout/fragment_conversation" />
 
     <fragment
         android:id="@+id/nav_ca_nhan"

@@ -24,7 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProfileActivity" />
-
+        <activity android:name=".ListenAndRepeatListActivity" />
+        <activity android:name=".ListenAndWriteListActivity" />
     </application>
 
 </manifest>

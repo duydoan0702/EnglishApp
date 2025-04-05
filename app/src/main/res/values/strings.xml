@@ -2,4 +2,11 @@
     <string name="app_name">LearnEnglishApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_desc">Hình minh họa</string>
+    <string-array name="speed_options">
+        <item>x1</item>
+        <item>x1.5</item>
+        <item>x2</item>
+    </string-array>
+
 </resources>

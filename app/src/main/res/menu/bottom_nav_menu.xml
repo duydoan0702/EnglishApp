@@ -14,7 +14,7 @@
         android:title="Trang chủ" />
     <item
         android:id="@+id/nav_hoi_thoai"
-        android:icon="@drawable/ic_hoi_thoai"
+        android:icon="@drawable/headphones_simple_solid__2_"
         android:title="Hội thoại" />
     <item
         android:id="@+id/nav_ca_nhan"
