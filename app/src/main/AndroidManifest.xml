@@ -23,9 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProfileActivity" />
         <activity android:name=".ListenAndRepeatListActivity" />
         <activity android:name=".ListenAndWriteListActivity" />
+        <activity android:name=".DetailVocabularyActivity" />
+
     </application>
 
 </manifest>

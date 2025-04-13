@@ -3,9 +3,9 @@ package com.example.learnenglishapp
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-class ProfileActivity : AppCompatActivity() {
+class DetailVocabularyActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profile) // Load giao diện profile
+        setContentView(R.layout.fragment_detail_vocabulary) // Gán layout tại đây
     }
 }
