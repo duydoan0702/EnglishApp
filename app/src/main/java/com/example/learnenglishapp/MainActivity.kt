@@ -9,9 +9,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d("MainActivity", "Trước khi gọi setContentView")
-        setContentView(R.layout.activity_main)
-        Log.d("MainActivity", "Sau khi gọi setContentView")
+        setContentView(R.layout.login)
 
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment) as? NavHostFragment

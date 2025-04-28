@@ -12,9 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnEnglishApp"
         tools:targetApi="31">
+
+
         <activity
             android:largeHeap="true"
-            android:name=".MainActivity"
+            android:name=".LearnEnglishApp.LoginActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.LearnEnglishApp">
@@ -26,6 +28,11 @@
         <activity android:name=".ListenAndRepeatListActivity" />
         <activity android:name=".ListenAndWriteListActivity" />
         <activity android:name=".DetailVocabularyActivity" />
+        <activity android:name=".LearnEnglishApp.SignUpActivity" />
+        <activity android:name=".LearnEnglishApp.LoginNextActivity" />
+        <activity android:name=".LearnEnglishApp.HomeActivity"/>
+
+
 
     </application>
 
