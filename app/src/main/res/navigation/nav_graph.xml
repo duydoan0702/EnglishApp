@@ -6,13 +6,13 @@
 
     <fragment
         android:id="@+id/nav_trang_chu"
-        android:name="com.example.learnenglishapp.home.HomeFragment"
+        android:name="com.example.learnenglishapp.ui.fragment.HomeFragment"
         android:label="Trang chủ"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_tu_vung"
-        android:name="com.example.learnenglishapp.home.VocabularyFragment"
+        android:name="com.example.learnenglishapp.ui.fragment.VocabularyFragment"
         android:label="Từ vựng"
         tools:layout="@layout/fragment_vocabulary" />
 
@@ -24,13 +24,13 @@
 
     <fragment
         android:id="@+id/nav_hoi_thoai"
-        android:name="com.example.learnenglishapp.home.ConversationFragment"
+        android:name="com.example.learnenglishapp.ui.fragment.ConversationFragment"
         android:label="Hội thoại"
         tools:layout="@layout/fragment_conversation" />
 
     <fragment
         android:id="@+id/nav_ca_nhan"
-        android:name="com.example.learnenglishapp.home.ProfileFragment"
+        android:name="com.example.learnenglishapp.ui.fragment.ProfileFragment"
         android:label="Cá nhân"
         tools:layout="@layout/fragment_profile" />
 </navigation>

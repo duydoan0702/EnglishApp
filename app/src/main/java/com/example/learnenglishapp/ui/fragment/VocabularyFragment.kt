@@ -1,4 +1,4 @@
-package com.example.learnenglishapp.home
+package com.example.learnenglishapp.ui.fragment
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.learnenglishapp.databinding.FragmentVocabularyBinding
-import com.example.learnenglishapp.DetailVocabularyActivity // hoặc tên activity bạn muốn mở
+import com.example.learnenglishapp.ui.activity.DetailVocabularyActivity
 
 class VocabularyFragment : Fragment() {
 

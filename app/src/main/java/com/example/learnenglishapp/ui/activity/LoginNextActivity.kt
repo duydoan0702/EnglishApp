@@ -1,4 +1,4 @@
-package com.example.learnenglishapp.LearnEnglishApp
+package com.example.learnenglishapp.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -33,7 +33,7 @@ class LoginNextActivity : AppCompatActivity() {
                     .addOnCompleteListener(this) { task ->
                         if (task.isSuccessful) {
                             Toast.makeText(this, "Đăng nhập thành công", Toast.LENGTH_SHORT).show()
-                            val intent = Intent(this, HomeActivity::class.java)
+                            val intent = Intent(this, MainActivity::class.java)
                             startActivity(intent)
                             finish()
                         } else {

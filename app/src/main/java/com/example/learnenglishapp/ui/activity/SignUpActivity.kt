@@ -1,4 +1,4 @@
-package com.example.learnenglishapp.LearnEnglishApp
+package com.example.learnenglishapp.ui.activity
 
 import android.content.Intent
 import android.os.Bundle

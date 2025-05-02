@@ -1,4 +1,4 @@
-package com.example.learnenglishapp.LearnEnglishApp
+package com.example.learnenglishapp.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -88,7 +88,7 @@ class LoginActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     val user = auth.currentUser
                     Toast.makeText(this, "Chào ${user?.displayName}", Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this, HomeActivity::class.java)
+                    val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
                 } else {
                     Toast.makeText(this, "Authentication Failed.", Toast.LENGTH_SHORT).show()
